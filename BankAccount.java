@@ -1,7 +1,7 @@
 public class BankAccount {
-    private final double balance;
-    private final int accountID;
-    private final String password;
+    private double balance;
+    private int accountID;
+    private String password;
     public BankAccount(int account, String pass) {
         accountID = account;
         password = pass;
@@ -12,5 +12,8 @@ public class BankAccount {
     }
     public int getAccountID() {
         return accountID;
+    }
+    public void setPassword(String newPass) {
+        password = newPass;
     }
 }
