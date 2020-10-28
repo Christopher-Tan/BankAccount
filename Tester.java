@@ -25,5 +25,7 @@ public class Tester {
         System.out.println(test.getBalance());
         print(test.withdraw(500.0));
         System.out.println(test.getBalance());
+        //tostring
+        System.out.println(test.toString());
     }
 }
